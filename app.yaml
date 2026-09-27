@@ -1,0 +1,7 @@
+command:
+  - python
+  - app.py
+
+env:
+  - name: ANTHROPIC_API_KEY
+    valueFrom: anthropic_key
